@@ -1,0 +1,45 @@
+extends base.pug 
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css 
+
+block content 
+    section#introsection 
+      div Welcome to the Book Den 
+      div.small  Eat Read Sleep Repeat
+    section#mission
+      h1 Our Mission
+      div.card
+        h3 Books for all
+        div.card-box 
+          div.card-img
+            img(src='/static/img/p1.jpg' style='width:100px; height:100px')
+          div.card-content 
+            p We have books for all ages and all genres.
+      div.card
+        h3 Give and Take of books
+        div.card-box 
+          div.card-img
+            img(src='/static/img/p2.jpg' style='width:100px; height:100px')
+          div.card-content 
+            p This platform can be used for exchanging books.
+      div.card
+        h3 Book lovers' haven
+        div.card-box 
+          div.card-img
+            img(src='/static/img/p3.jpg' style='width:100px; height:100px')
+          div.card-content 
+            p A place where book lovers can connect and talk.
+    section#oursponsors 
+      h1 Our Sponsors 
+      div#sponsors 
+        img(src="/static/img/l1.jpg",alt="",class="spImage")
+        img(src="/static/img/l2.png",alt="",class="spImage")
+        img(src="/static/img/l3.png",alt="",class="spImage")
+        img(src="/static/img/l4.jpg",alt="",class="spImage")
+        img(src="/static/img/l5.jpg",alt="",class="spImage")
+    

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar{
+    background-color: rgba(105, 14, 12, 0.94);
+    padding:15px 20px;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#logo{
+    margin-right: 70px;
+}
+
+#navbar li a{
+    color:white;
+    font-size: 1.5rem;
+    font-family: 'Permanent Marker';
+    text-decoration: none;
+    padding: 13px 30px;
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#introsection::before{
+    content: "";
+    position: absolute;
+    top: 17%;
+    left: 0.55%;
+    right: 0.55%;
+    z-index: -1;
+    opacity: 0.9;
+    height: 380px;
+    width: 98.9%;
+    background: center/cover no-repeat url(/static/img/bg3.jpg);
+}
+
+#introsection{
+    color:white;
+    padding-bottom: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Permanent Marker';
+    font-size: 55px;
+    align-items: center;
+    
+    height: 380px;
+    /* background-color: brown;  */
+    
+}
+
+#introsection div.small{
+    font-size:25px;
+    /* padding:3px 15px; */
+}
+
+#mission::before{
+    content: "";
+    position: absolute;
+    top: 71.2%;
+    left: 0.55%;
+    z-index: -1;
+    opacity: 0.9;
+    height: 450px;
+    width: 98.9%;
+    background: center/cover no-repeat url(/static/img/bg2.jpg);
+}
+
+#mission{
+    height:355px;
+    color:wheat;
+    /* background: center/cover no-repeat url("/static/img/bg2.jpg"); */
+    margin: auto;
+    /* width: 70%; */
+    display:block;
+}
+
+#mission h1{
+    font-family: 'Permanent Marker';
+    /* color: white; */
+    text-align: center;
+    /* padding-top: 20px; */
+    font-size: 35px;
+}
+
+.card{
+    /* font-family: 'Permanent Marker'; */
+    display:inline-block;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 27%;
+    margin: 23px 45px;
+    height: 200px;
+    background-color: wheat;
+}
+
+.card h3{
+    text-align: center;
+    margin: 15px;
+}
+
+.card img{
+    align-items: center;
+    margin:auto;
+    display: block;
+}
+
+.card-box{
+    /* height:150px; */
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    /* height:150px; */
+    padding: 0 14px;
+    margin: 5px 10px;
+}  
+
+.card-img img{
+    height:inherit;
+}
+
+.card-content{
+    padding:0 10px;
+    align-items: center;
+    margin-top: 0;
+    /* font-size: 20px; */
+}
+
+#oursponsors{
+    background: center/cover no-repeat url(/static/img/bg4.jpg);
+    /* background-color: rgb(88, 29, 90); */
+    height:300px
+}
+
+#oursponsors h1{
+    font-family: 'Permanent Marker';
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+
+#sponsors{
+    display:flex;
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.spImage{
+    height: 80px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    justify-content: center;
+    height:30px;
+}
+
